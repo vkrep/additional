@@ -1,0 +1,1826 @@
+[id^="bukalapak-widget"]>div {
+    margin: 0 auto !important
+}
+
+#bukalapak-widget,
+.bukalapak-widget-preview {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Cantarell", sans-serif;
+    font-size: 10px;
+    line-height: 1
+}
+
+#bukalapak-widget div,
+#bukalapak-widget span,
+#bukalapak-widget h1,
+#bukalapak-widget h2,
+#bukalapak-widget h3,
+#bukalapak-widget h4,
+#bukalapak-widget h5,
+#bukalapak-widget h6,
+#bukalapak-widget p,
+#bukalapak-widget a,
+#bukalapak-widget em,
+#bukalapak-widget img,
+#bukalapak-widget small,
+#bukalapak-widget strong,
+#bukalapak-widget dl,
+#bukalapak-widget dt,
+#bukalapak-widget dd,
+#bukalapak-widget ol,
+#bukalapak-widget ul,
+#bukalapak-widget li,
+.bukalapak-widget-preview div,
+.bukalapak-widget-preview span,
+.bukalapak-widget-preview h1,
+.bukalapak-widget-preview h2,
+.bukalapak-widget-preview h3,
+.bukalapak-widget-preview h4,
+.bukalapak-widget-preview h5,
+.bukalapak-widget-preview h6,
+.bukalapak-widget-preview p,
+.bukalapak-widget-preview a,
+.bukalapak-widget-preview em,
+.bukalapak-widget-preview img,
+.bukalapak-widget-preview small,
+.bukalapak-widget-preview strong,
+.bukalapak-widget-preview dl,
+.bukalapak-widget-preview dt,
+.bukalapak-widget-preview dd,
+.bukalapak-widget-preview ol,
+.bukalapak-widget-preview ul,
+.bukalapak-widget-preview li {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+    -webkit-text-shadow: 0 0 0;
+    -moz-text-shadow: 0 0 0;
+    text-shadow: 0 0 0
+}
+
+#bukalapak-widget img,
+.bukalapak-widget-preview img {
+    vertical-align: middle
+}
+
+#bukalapak-widget ol,
+#bukalapak-widget ul,
+.bukalapak-widget-preview ol,
+.bukalapak-widget-preview ul {
+    list-style: none
+}
+
+#bukalapak-widget *,
+#bukalapak-widget *:before,
+#bukalapak-widget *:after,
+.bukalapak-widget-preview *,
+.bukalapak-widget-preview *:before,
+.bukalapak-widget-preview *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#bukalapak-widget .wrapword,
+.bukalapak-widget-preview .wrapword {
+    white-space: -moz-pre-wrap !important;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal
+}
+
+#bukalapak-widget a,
+#bukalapak-widget a:hover,
+.bukalapak-widget-preview a,
+.bukalapak-widget-preview a:hover {
+    text-decoration: none;
+    color: #a30046
+}
+
+#bukalapak-widget .seller--badge,
+.bukalapak-widget-preview .seller--badge {
+    display: block;
+    clear: both;
+    float: left;
+    height: 24px;
+    white-space: nowrap;
+    padding-left: 30px;
+    padding-top: 6px;
+    margin-top: 4px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ccc;
+    background-image: url("/images/sprite/seller_badge.png");
+    background-repeat: no-repeat;
+    background-position: -9999px -9999px
+}
+
+#bukalapak-widget .seller--badge.__level-1,
+.bukalapak-widget-preview .seller--badge.__level-1 {
+    background-position: 0px 0px
+}
+
+#bukalapak-widget .seller--badge.__level-2,
+.bukalapak-widget-preview .seller--badge.__level-2 {
+    background-position: 0px -50px
+}
+
+#bukalapak-widget .seller--badge.__level-3,
+.bukalapak-widget-preview .seller--badge.__level-3 {
+    background-position: 0px -100px
+}
+
+#bukalapak-widget .seller--badge.__level-4,
+.bukalapak-widget-preview .seller--badge.__level-4 {
+    background-position: 0px -150px
+}
+
+#bukalapak-widget .seller--badge.__level-5,
+.bukalapak-widget-preview .seller--badge.__level-5 {
+    background-position: 0px -200px
+}
+
+#bukalapak-widget .seller--badge.__level-6,
+.bukalapak-widget-preview .seller--badge.__level-6 {
+    background-position: 0px -250px
+}
+
+#bukalapak-widget .seller--badge.__level-7,
+.bukalapak-widget-preview .seller--badge.__level-7 {
+    background-position: 0px -300px
+}
+
+#bukalapak-widget .seller--badge.__level-8,
+.bukalapak-widget-preview .seller--badge.__level-8 {
+    background-position: 0px -350px
+}
+
+#bukalapak-widget .seller--badge.__level-9,
+.bukalapak-widget-preview .seller--badge.__level-9 {
+    background-position: 0px -400px
+}
+
+#bukalapak-widget ._180-150_,
+.bukalapak-widget-preview ._180-150_ {
+    width: 180px;
+    height: 150px;
+    border: 1px solid #dae0e3;
+    background-color: #fff
+}
+
+#bukalapak-widget ._180-150_ .brand,
+.bukalapak-widget-preview ._180-150_ .brand {
+    width: 100%;
+    height: 37px;
+    padding-top: 12px;
+    border-bottom: solid 1px #F7F7F7
+}
+
+#bukalapak-widget ._180-150_ .brand--logo,
+.bukalapak-widget-preview ._180-150_ .brand--logo {
+    display: block;
+    height: 20px;
+    width: 85px;
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 0
+}
+
+#bukalapak-widget ._180-150_ .seller,
+.bukalapak-widget-preview ._180-150_ .seller {
+    width: 100%;
+    height: 75px;
+    padding: 10px 10px
+}
+
+#bukalapak-widget ._180-150_ .seller--image,
+.bukalapak-widget-preview ._180-150_ .seller--image {
+    float: left;
+    margin-right: 10px
+}
+
+#bukalapak-widget ._180-150_ .seller--image img,
+.bukalapak-widget-preview ._180-150_ .seller--image img {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px
+}
+
+#bukalapak-widget ._180-150_ .seller--description,
+.bukalapak-widget-preview ._180-150_ .seller--description {
+    float: left
+}
+
+#bukalapak-widget ._180-150_ .seller--name,
+.bukalapak-widget-preview ._180-150_ .seller--name {
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left
+}
+
+#bukalapak-widget ._180-150_ .seller--recommendation,
+.bukalapak-widget-preview ._180-150_ .seller--recommendation {
+    display: block;
+    clear: both;
+    float: left;
+    margin-top: 4px
+}
+
+#bukalapak-widget ._180-150_ .product,
+.bukalapak-widget-preview ._180-150_ .product {
+    display: none
+}
+
+#bukalapak-widget ._180-150_ .products--link,
+.bukalapak-widget-preview ._180-150_ .products--link {
+    display: block;
+    clear: both;
+    background-color: #FAFBFC;
+    height: 35px;
+    padding-top: 12px;
+    font-size: 11px;
+    text-align: center
+}
+
+#bukalapak-widget ._180-150_ .products--link a,
+.bukalapak-widget-preview ._180-150_ .products--link a {
+    text-decoration: underline;
+    color: #BBB !important
+}
+
+#bukalapak-widget ._180-150_.white .brand,
+.bukalapak-widget-preview ._180-150_.white .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._180-150_.white .brand--logo,
+.bukalapak-widget-preview ._180-150_.white .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_180-150_/red/logo.png")
+}
+
+#bukalapak-widget ._180-150_.white .seller--name a,
+.bukalapak-widget-preview ._180-150_.white .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._180-150_.white .seller--recommendation a,
+.bukalapak-widget-preview ._180-150_.white .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._180-150_.red .brand,
+.bukalapak-widget-preview ._180-150_.red .brand {
+    background-color: #a30046
+}
+
+#bukalapak-widget ._180-150_.red .brand--logo,
+.bukalapak-widget-preview ._180-150_.red .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_180-150_/white/logo.png")
+}
+
+#bukalapak-widget ._180-150_.red .seller--name a,
+.bukalapak-widget-preview ._180-150_.red .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._180-150_.red .seller--recommendation a,
+.bukalapak-widget-preview ._180-150_.red .seller--recommendation a {
+    color: #a30046
+}
+
+#bukalapak-widget ._180-150_.grey .brand,
+.bukalapak-widget-preview ._180-150_.grey .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._180-150_.grey .brand--logo,
+.bukalapak-widget-preview ._180-150_.grey .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_180-150_/grey/logo.png")
+}
+
+#bukalapak-widget ._180-150_.grey .seller--name a,
+.bukalapak-widget-preview ._180-150_.grey .seller--name a {
+    color: #333
+}
+
+#bukalapak-widget ._180-150_.grey .seller--recommendation a,
+.bukalapak-widget-preview ._180-150_.grey .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._180-150_.dark .brand,
+.bukalapak-widget-preview ._180-150_.dark .brand {
+    background-color: #333
+}
+
+#bukalapak-widget ._180-150_.dark .brand--logo,
+.bukalapak-widget-preview ._180-150_.dark .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_180-150_/white/logo.png")
+}
+
+#bukalapak-widget ._180-150_.dark .seller--name a,
+.bukalapak-widget-preview ._180-150_.dark .seller--name a {
+    color: #333
+}
+
+#bukalapak-widget ._180-150_.dark .seller--recommendation a,
+.bukalapak-widget-preview ._180-150_.dark .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._300-250_,
+.bukalapak-widget-preview ._300-250_ {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #dae0e3;
+    position: relative;
+    background-color: #fff
+}
+
+#bukalapak-widget ._300-250_ .brand,
+.bukalapak-widget-preview ._300-250_ .brand {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    float: left
+}
+
+#bukalapak-widget ._300-250_ .brand--logo,
+.bukalapak-widget-preview ._300-250_ .brand--logo {
+    display: block;
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 0
+}
+
+#bukalapak-widget ._300-250_ .seller,
+.bukalapak-widget-preview ._300-250_ .seller {
+    height: 70px;
+    padding: 4px 0
+}
+
+#bukalapak-widget ._300-250_ .seller--image,
+.bukalapak-widget-preview ._300-250_ .seller--image {
+    float: left;
+    margin-right: 10px
+}
+
+#bukalapak-widget ._300-250_ .seller--image img,
+.bukalapak-widget-preview ._300-250_ .seller--image img {
+    width: 62px;
+    height: 62px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px
+}
+
+#bukalapak-widget ._300-250_ .seller--description,
+.bukalapak-widget-preview ._300-250_ .seller--description {
+    float: left
+}
+
+#bukalapak-widget ._300-250_ .seller--name,
+.bukalapak-widget-preview ._300-250_ .seller--name {
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding-top: 2px
+}
+
+#bukalapak-widget ._300-250_ .seller--badge,
+.bukalapak-widget-preview ._300-250_ .seller--badge {
+    margin-top: 6px
+}
+
+#bukalapak-widget ._300-250_ .seller--recommendation,
+.bukalapak-widget-preview ._300-250_ .seller--recommendation {
+    display: block;
+    clear: both;
+    float: left;
+    margin-top: 6px;
+    font-size: 11px
+}
+
+#bukalapak-widget ._300-250_ .products,
+.bukalapak-widget-preview ._300-250_ .products {
+    display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 178px;
+    padding-top: 10px;
+    background-color: #FAFBFC
+}
+
+#bukalapak-widget ._300-250_ .product,
+.bukalapak-widget-preview ._300-250_ .product {
+    height: 60px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+    clear: both
+}
+
+#bukalapak-widget ._300-250_ .product--image,
+.bukalapak-widget-preview ._300-250_ .product--image {
+    float: left
+}
+
+#bukalapak-widget ._300-250_ .product--image img,
+.bukalapak-widget-preview ._300-250_ .product--image img {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 8px
+}
+
+#bukalapak-widget ._300-250_ .product--description,
+.bukalapak-widget-preview ._300-250_ .product--description {
+    float: left;
+    width: 200px;
+    height: 60px;
+    position: relative
+}
+
+#bukalapak-widget ._300-250_ .product--name,
+.bukalapak-widget-preview ._300-250_ .product--name {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold
+}
+
+#bukalapak-widget ._300-250_ .product--name a,
+.bukalapak-widget-preview ._300-250_ .product--name a {
+    color: #333
+}
+
+#bukalapak-widget ._300-250_ .product--price,
+.bukalapak-widget-preview ._300-250_ .product--price {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    margin-top: 9px;
+    font-size: 12px;
+    font-weight: bold
+}
+
+#bukalapak-widget ._300-250_ .product--price a,
+.bukalapak-widget-preview ._300-250_ .product--price a {
+    color: #a30046
+}
+
+#bukalapak-widget ._300-250_ .bx-viewport,
+.bukalapak-widget-preview ._300-250_ .bx-viewport {
+    height: 135px !important;
+    margin-bottom: 10px
+}
+
+#bukalapak-widget ._300-250_ .bx-controls a,
+.bukalapak-widget-preview ._300-250_ .bx-controls a {
+    position: absolute;
+    display: block;
+    background-image: url("https://www.bukalapak.com/images/widget/_300-250_/nav.png");
+    background-position: -9999px -9999px;
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    bottom: 12px
+}
+
+#bukalapak-widget ._300-250_ .bx-controls .bx-prev,
+.bukalapak-widget-preview ._300-250_ .bx-controls .bx-prev {
+    left: 15px
+}
+
+#bukalapak-widget ._300-250_ .bx-controls .bx-prev.disabled,
+.bukalapak-widget-preview ._300-250_ .bx-controls .bx-prev.disabled {
+    background-position: 0px 0px !important
+}
+
+#bukalapak-widget ._300-250_ .bx-controls .bx-next,
+.bukalapak-widget-preview ._300-250_ .bx-controls .bx-next {
+    right: 15px
+}
+
+#bukalapak-widget ._300-250_ .bx-controls .bx-next.disabled,
+.bukalapak-widget-preview ._300-250_ .bx-controls .bx-next.disabled {
+    background-position: -10px 0px !important
+}
+
+#bukalapak-widget ._300-250_ .products--link,
+.bukalapak-widget-preview ._300-250_ .products--link {
+    display: block;
+    clear: both;
+    width: 100%;
+    font-size: 11px;
+    text-align: center
+}
+
+#bukalapak-widget ._300-250_ .products--link a,
+.bukalapak-widget-preview ._300-250_ .products--link a {
+    color: #BBB !important
+}
+
+#bukalapak-widget ._300-250_.white .brand,
+.bukalapak-widget-preview ._300-250_.white .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._300-250_.white .brand--logo,
+.bukalapak-widget-preview ._300-250_.white .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_300-250_/red/logo.png")
+}
+
+#bukalapak-widget ._300-250_.white .seller--name a,
+.bukalapak-widget-preview ._300-250_.white .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._300-250_.white .seller--recommendation a,
+.bukalapak-widget-preview ._300-250_.white .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._300-250_.white .bx-controls .bx-prev,
+.bukalapak-widget-preview ._300-250_.white .bx-controls .bx-prev {
+    background-position: 0px -17px
+}
+
+#bukalapak-widget ._300-250_.white .bx-controls .bx-next,
+.bukalapak-widget-preview ._300-250_.white .bx-controls .bx-next {
+    background-position: -10px -17px
+}
+
+#bukalapak-widget ._300-250_.red .brand,
+.bukalapak-widget-preview ._300-250_.red .brand {
+    background-color: #a30046
+}
+
+#bukalapak-widget ._300-250_.red .brand--logo,
+.bukalapak-widget-preview ._300-250_.red .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_300-250_/white/logo.png")
+}
+
+#bukalapak-widget ._300-250_.red .seller--name a,
+.bukalapak-widget-preview ._300-250_.red .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._300-250_.red .seller--recommendation a,
+.bukalapak-widget-preview ._300-250_.red .seller--recommendation a {
+    color: #a30046
+}
+
+#bukalapak-widget ._300-250_.red .bx-controls .bx-prev,
+.bukalapak-widget-preview ._300-250_.red .bx-controls .bx-prev {
+    background-position: 0px -17px
+}
+
+#bukalapak-widget ._300-250_.red .bx-controls .bx-next,
+.bukalapak-widget-preview ._300-250_.red .bx-controls .bx-next {
+    background-position: -10px -17px
+}
+
+#bukalapak-widget ._300-250_.grey .brand,
+.bukalapak-widget-preview ._300-250_.grey .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._300-250_.grey .brand--logo,
+.bukalapak-widget-preview ._300-250_.grey .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_300-250_/grey/logo.png")
+}
+
+#bukalapak-widget ._300-250_.grey .seller--name a,
+.bukalapak-widget-preview ._300-250_.grey .seller--name a {
+    color: #333
+}
+
+#bukalapak-widget ._300-250_.grey .seller--recommendation a,
+.bukalapak-widget-preview ._300-250_.grey .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._300-250_.grey .bx-controls .bx-prev,
+.bukalapak-widget-preview ._300-250_.grey .bx-controls .bx-prev {
+    background-position: 0px -17px
+}
+
+#bukalapak-widget ._300-250_.grey .bx-controls .bx-next,
+.bukalapak-widget-preview ._300-250_.grey .bx-controls .bx-next {
+    background-position: -10px -17px
+}
+
+#bukalapak-widget ._300-250_.dark .brand,
+.bukalapak-widget-preview ._300-250_.dark .brand {
+    background-color: #333
+}
+
+#bukalapak-widget ._300-250_.dark .brand--logo,
+.bukalapak-widget-preview ._300-250_.dark .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_300-250_/white/logo.png")
+}
+
+#bukalapak-widget ._300-250_.dark .seller--name a,
+.bukalapak-widget-preview ._300-250_.dark .seller--name a {
+    color: #333
+}
+
+#bukalapak-widget ._300-250_.dark .seller--recommendation a,
+.bukalapak-widget-preview ._300-250_.dark .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._300-250_.dark .bx-controls .bx-prev,
+.bukalapak-widget-preview ._300-250_.dark .bx-controls .bx-prev {
+    background-position: 0px -35px
+}
+
+#bukalapak-widget ._300-250_.dark .bx-controls .bx-next,
+.bukalapak-widget-preview ._300-250_.dark .bx-controls .bx-next {
+    background-position: -10px -35px
+}
+
+#bukalapak-widget ._336-280_,
+.bukalapak-widget-preview ._336-280_ {
+    width: 336px;
+    height: 280px;
+    border: 1px solid #dae0e3;
+    position: relative;
+    background-color: #fff
+}
+
+#bukalapak-widget ._336-280_ .brand,
+.bukalapak-widget-preview ._336-280_ .brand {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    float: left
+}
+
+#bukalapak-widget ._336-280_ .brand--logo,
+.bukalapak-widget-preview ._336-280_ .brand--logo {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 0
+}
+
+#bukalapak-widget ._336-280_ .seller,
+.bukalapak-widget-preview ._336-280_ .seller {
+    height: 80px;
+    padding: 10px 0
+}
+
+#bukalapak-widget ._336-280_ .seller--image,
+.bukalapak-widget-preview ._336-280_ .seller--image {
+    float: left;
+    margin-right: 10px
+}
+
+#bukalapak-widget ._336-280_ .seller--image img,
+.bukalapak-widget-preview ._336-280_ .seller--image img {
+    width: 62px;
+    height: 62px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px
+}
+
+#bukalapak-widget ._336-280_ .seller--description,
+.bukalapak-widget-preview ._336-280_ .seller--description {
+    float: left
+}
+
+#bukalapak-widget ._336-280_ .seller--name,
+.bukalapak-widget-preview ._336-280_ .seller--name {
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding-top: 2px
+}
+
+#bukalapak-widget ._336-280_ .seller--badge,
+.bukalapak-widget-preview ._336-280_ .seller--badge {
+    margin-top: 6px
+}
+
+#bukalapak-widget ._336-280_ .seller--recommendation,
+.bukalapak-widget-preview ._336-280_ .seller--recommendation {
+    display: block;
+    clear: both;
+    float: left;
+    margin-top: 6px;
+    font-size: 11px
+}
+
+#bukalapak-widget ._336-280_ .products,
+.bukalapak-widget-preview ._336-280_ .products {
+    display: block;
+    float: left;
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 197px;
+    padding-top: 10px;
+    background-color: #FAFBFC
+}
+
+#bukalapak-widget ._336-280_ .product,
+.bukalapak-widget-preview ._336-280_ .product {
+    height: 45px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    width: 165px;
+    float: left
+}
+
+#bukalapak-widget ._336-280_ .product--image,
+.bukalapak-widget-preview ._336-280_ .product--image {
+    float: left
+}
+
+#bukalapak-widget ._336-280_ .product--image img,
+.bukalapak-widget-preview ._336-280_ .product--image img {
+    height: 44px;
+    width: 44px;
+    margin-right: 10px;
+    border-radius: 8px
+}
+
+#bukalapak-widget ._336-280_ .product--description,
+.bukalapak-widget-preview ._336-280_ .product--description {
+    float: left;
+    width: 90px;
+    height: 42px;
+    position: relative
+}
+
+#bukalapak-widget ._336-280_ .product--name,
+.bukalapak-widget-preview ._336-280_ .product--name {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 4px;
+    font-size: 11px;
+    font-weight: bold
+}
+
+#bukalapak-widget ._336-280_ .product--name a,
+.bukalapak-widget-preview ._336-280_ .product--name a {
+    color: #333
+}
+
+#bukalapak-widget ._336-280_ .product--price,
+.bukalapak-widget-preview ._336-280_ .product--price {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: bold
+}
+
+#bukalapak-widget ._336-280_ .product--price a,
+.bukalapak-widget-preview ._336-280_ .product--price a {
+    color: #a30046
+}
+
+#bukalapak-widget ._336-280_ .bx-viewport,
+.bukalapak-widget-preview ._336-280_ .bx-viewport {
+    height: 100px !important;
+    margin-bottom: 15px;
+    margin-top: 45px
+}
+
+#bukalapak-widget ._336-280_ .bx-pager,
+.bukalapak-widget-preview ._336-280_ .bx-pager {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    width: 108px;
+    margin-left: -54px;
+    font-size: 11px;
+    text-align: center
+}
+
+#bukalapak-widget ._336-280_ .bx-pager-item,
+.bukalapak-widget-preview ._336-280_ .bx-pager-item {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    text-align: center
+}
+
+#bukalapak-widget ._336-280_ .bx-pager-item a,
+.bukalapak-widget-preview ._336-280_ .bx-pager-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 6px;
+    background-image: url("https://www.bukalapak.com/images/widget/_336-280_/nav.png");
+    background-position: -9999px -9999px;
+    background-repeat: no-repeat;
+    color: #BBB
+}
+
+#bukalapak-widget ._336-280_ .bx-pager-item a.active,
+.bukalapak-widget-preview ._336-280_ .bx-pager-item a.active {
+    color: #fff
+}
+
+#bukalapak-widget ._336-280_ .bx-controls-direction,
+.bukalapak-widget-preview ._336-280_ .bx-controls-direction {
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+#bukalapak-widget ._336-280_ .bx-controls-direction a,
+.bukalapak-widget-preview ._336-280_ .bx-controls-direction a {
+    position: absolute;
+    display: block;
+    top: 20px;
+    background-image: url("https://www.bukalapak.com/images/widget/_336-280_/nav.png");
+    background-position: -9999px -9999px;
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 10px;
+    height: 14px
+}
+
+#bukalapak-widget ._336-280_ .bx-controls-direction .bx-prev,
+.bukalapak-widget-preview ._336-280_ .bx-controls-direction .bx-prev {
+    left: 105px
+}
+
+#bukalapak-widget ._336-280_ .bx-controls-direction .bx-prev.disabled,
+.bukalapak-widget-preview ._336-280_ .bx-controls-direction .bx-prev.disabled {
+    background-position: 0px 1px !important
+}
+
+#bukalapak-widget ._336-280_ .bx-controls-direction .bx-next,
+.bukalapak-widget-preview ._336-280_ .bx-controls-direction .bx-next {
+    right: 105px
+}
+
+#bukalapak-widget ._336-280_ .bx-controls-direction .bx-next.disabled,
+.bukalapak-widget-preview ._336-280_ .bx-controls-direction .bx-next.disabled {
+    background-position: -10px 1px !important
+}
+
+#bukalapak-widget ._336-280_ .products--link,
+.bukalapak-widget-preview ._336-280_ .products--link {
+    display: block;
+    clear: both;
+    width: 100%;
+    font-size: 11px;
+    text-align: center
+}
+
+#bukalapak-widget ._336-280_ .products--link a,
+.bukalapak-widget-preview ._336-280_ .products--link a {
+    color: #BBB !important
+}
+
+#bukalapak-widget ._336-280_.white .brand,
+.bukalapak-widget-preview ._336-280_.white .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._336-280_.white .brand--logo,
+.bukalapak-widget-preview ._336-280_.white .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_336-280_/red/logo.png")
+}
+
+#bukalapak-widget ._336-280_.white .seller--name a,
+.bukalapak-widget-preview ._336-280_.white .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._336-280_.white .seller--recommendation a,
+.bukalapak-widget-preview ._336-280_.white .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._336-280_.white .bx-pager-item a.active,
+.bukalapak-widget-preview ._336-280_.white .bx-pager-item a.active {
+    background-position: -34px -2px
+}
+
+#bukalapak-widget ._336-280_.white .bx-controls .bx-prev,
+.bukalapak-widget-preview ._336-280_.white .bx-controls .bx-prev {
+    background-position: 0px -25px
+}
+
+#bukalapak-widget ._336-280_.white .bx-controls .bx-next,
+.bukalapak-widget-preview ._336-280_.white .bx-controls .bx-next {
+    background-position: -10px -25px
+}
+
+#bukalapak-widget ._336-280_.red .brand,
+.bukalapak-widget-preview ._336-280_.red .brand {
+    background-color: #a30046
+}
+
+#bukalapak-widget ._336-280_.red .brand--logo,
+.bukalapak-widget-preview ._336-280_.red .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_336-280_/white/logo.png")
+}
+
+#bukalapak-widget ._336-280_.red .seller--name a,
+.bukalapak-widget-preview ._336-280_.red .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._336-280_.red .seller--recommendation a,
+.bukalapak-widget-preview ._336-280_.red .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._336-280_.red .bx-pager-item a.active,
+.bukalapak-widget-preview ._336-280_.red .bx-pager-item a.active {
+    background-position: -34px -2px
+}
+
+#bukalapak-widget ._336-280_.red .bx-controls .bx-prev,
+.bukalapak-widget-preview ._336-280_.red .bx-controls .bx-prev {
+    background-position: 0px -25px
+}
+
+#bukalapak-widget ._336-280_.red .bx-controls .bx-next,
+.bukalapak-widget-preview ._336-280_.red .bx-controls .bx-next {
+    background-position: -10px -25px
+}
+
+#bukalapak-widget ._336-280_.grey .brand,
+.bukalapak-widget-preview ._336-280_.grey .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._336-280_.grey .brand--logo,
+.bukalapak-widget-preview ._336-280_.grey .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_336-280_/grey/logo.png")
+}
+
+#bukalapak-widget ._336-280_.grey .seller--name a,
+.bukalapak-widget-preview ._336-280_.grey .seller--name a {
+    color: #333
+}
+
+#bukalapak-widget ._336-280_.grey .seller--recommendation a,
+.bukalapak-widget-preview ._336-280_.grey .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._336-280_.grey .bx-pager-item a.active,
+.bukalapak-widget-preview ._336-280_.grey .bx-pager-item a.active {
+    background-position: -34px -2px
+}
+
+#bukalapak-widget ._336-280_.grey .bx-controls .bx-prev,
+.bukalapak-widget-preview ._336-280_.grey .bx-controls .bx-prev {
+    background-position: 0px -25px
+}
+
+#bukalapak-widget ._336-280_.grey .bx-controls .bx-next,
+.bukalapak-widget-preview ._336-280_.grey .bx-controls .bx-next {
+    background-position: -10px -25px
+}
+
+#bukalapak-widget ._336-280_.dark .brand,
+.bukalapak-widget-preview ._336-280_.dark .brand {
+    background-color: #333
+}
+
+#bukalapak-widget ._336-280_.dark .brand--logo,
+.bukalapak-widget-preview ._336-280_.dark .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_336-280_/white/logo.png")
+}
+
+#bukalapak-widget ._336-280_.dark .seller--name a,
+.bukalapak-widget-preview ._336-280_.dark .seller--name a {
+    color: #333
+}
+
+#bukalapak-widget ._336-280_.dark .seller--recommendation a,
+.bukalapak-widget-preview ._336-280_.dark .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._336-280_.dark .bx-pager-item a.active,
+.bukalapak-widget-preview ._336-280_.dark .bx-pager-item a.active {
+    background-position: -34px -27px
+}
+
+#bukalapak-widget ._336-280_.dark .bx-controls .bx-prev,
+.bukalapak-widget-preview ._336-280_.dark .bx-controls .bx-prev {
+    background-position: 0px -51px
+}
+
+#bukalapak-widget ._336-280_.dark .bx-controls .bx-next,
+.bukalapak-widget-preview ._336-280_.dark .bx-controls .bx-next {
+    background-position: -10px -51px
+}
+
+#bukalapak-widget ._160-600_,
+.bukalapak-widget-preview ._160-600_ {
+    width: 160px;
+    height: 600px;
+    border: 1px solid #dae0e3;
+    background-color: #fff
+}
+
+#bukalapak-widget ._160-600_ .brand,
+.bukalapak-widget-preview ._160-600_ .brand {
+    width: 100%;
+    height: 45px;
+    padding-top: 12px;
+    border-bottom: solid 1px #F7F7F7
+}
+
+#bukalapak-widget ._160-600_ .brand--logo,
+.bukalapak-widget-preview ._160-600_ .brand--logo {
+    display: block;
+    height: 25px;
+    width: 105px;
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 0
+}
+
+#bukalapak-widget ._160-600_ .seller,
+.bukalapak-widget-preview ._160-600_ .seller {
+    width: 100%;
+    height: 75px;
+    padding: 10px 10px
+}
+
+#bukalapak-widget ._160-600_ .seller--image,
+.bukalapak-widget-preview ._160-600_ .seller--image {
+    float: left;
+    margin-right: 10px
+}
+
+#bukalapak-widget ._160-600_ .seller--image img,
+.bukalapak-widget-preview ._160-600_ .seller--image img {
+    width: 42px;
+    height: 42px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px
+}
+
+#bukalapak-widget ._160-600_ .seller--description,
+.bukalapak-widget-preview ._160-600_ .seller--description {
+    float: left
+}
+
+#bukalapak-widget ._160-600_ .seller--name,
+.bukalapak-widget-preview ._160-600_ .seller--name {
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left
+}
+
+#bukalapak-widget ._160-600_ .seller--recommendation,
+.bukalapak-widget-preview ._160-600_ .seller--recommendation {
+    display: block;
+    clear: both;
+    float: left;
+    margin-top: 4px
+}
+
+#bukalapak-widget ._160-600_ .products,
+.bukalapak-widget-preview ._160-600_ .products {
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 478px;
+    padding: 10px 10px 0;
+    background-color: #FAFBFC
+}
+
+#bukalapak-widget ._160-600_ .product,
+.bukalapak-widget-preview ._160-600_ .product {
+    height: 72px;
+    padding: 15px 0;
+    width: 100%;
+    float: left;
+    clear: both;
+    border-top: solid 1px #DDD
+}
+
+#bukalapak-widget ._160-600_ .product:last-child,
+.bukalapak-widget-preview ._160-600_ .product:last-child {
+    border-bottom: solid 1px #DDD
+}
+
+#bukalapak-widget ._160-600_ .product--image,
+.bukalapak-widget-preview ._160-600_ .product--image {
+    float: left
+}
+
+#bukalapak-widget ._160-600_ .product--image img,
+.bukalapak-widget-preview ._160-600_ .product--image img {
+    height: 42px;
+    width: 42px;
+    margin-right: 10px;
+    border-radius: 8px
+}
+
+#bukalapak-widget ._160-600_ .product--description,
+.bukalapak-widget-preview ._160-600_ .product--description {
+    float: left;
+    width: 80px;
+    height: 42px;
+    position: relative
+}
+
+#bukalapak-widget ._160-600_ .product--name,
+.bukalapak-widget-preview ._160-600_ .product--name {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 4px;
+    font-size: 11px;
+    font-weight: bold
+}
+
+#bukalapak-widget ._160-600_ .product--name a,
+.bukalapak-widget-preview ._160-600_ .product--name a {
+    color: #333
+}
+
+#bukalapak-widget ._160-600_ .product--price,
+.bukalapak-widget-preview ._160-600_ .product--price {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-top: 9px;
+    font-size: 11px;
+    font-weight: bold
+}
+
+#bukalapak-widget ._160-600_ .product--price a,
+.bukalapak-widget-preview ._160-600_ .product--price a {
+    color: #a30046
+}
+
+#bukalapak-widget ._160-600_ .bx-viewport,
+.bukalapak-widget-preview ._160-600_ .bx-viewport {
+    height: 360px !important;
+    margin-bottom: 15px;
+    margin-top: 45px
+}
+
+#bukalapak-widget ._160-600_ .bx-pager,
+.bukalapak-widget-preview ._160-600_ .bx-pager {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    width: 108px;
+    margin-left: -54px;
+    font-size: 11px;
+    text-align: center
+}
+
+#bukalapak-widget ._160-600_ .bx-pager-item,
+.bukalapak-widget-preview ._160-600_ .bx-pager-item {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    text-align: center
+}
+
+#bukalapak-widget ._160-600_ .bx-pager-item a,
+.bukalapak-widget-preview ._160-600_ .bx-pager-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 6px;
+    background-image: url("https://www.bukalapak.com/images/widget/_336-280_/nav.png");
+    background-position: -9999px -9999px;
+    background-repeat: no-repeat;
+    color: #BBB
+}
+
+#bukalapak-widget ._160-600_ .bx-pager-item a.active,
+.bukalapak-widget-preview ._160-600_ .bx-pager-item a.active {
+    color: #fff
+}
+
+#bukalapak-widget ._160-600_ .bx-controls-direction,
+.bukalapak-widget-preview ._160-600_ .bx-controls-direction {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+#bukalapak-widget ._160-600_ .bx-controls-direction a,
+.bukalapak-widget-preview ._160-600_ .bx-controls-direction a {
+    position: absolute;
+    display: block;
+    top: 20px;
+    background-image: url("https://www.bukalapak.com/images/widget/_336-280_/nav.png");
+    background-position: -9999px -9999px;
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 10px;
+    height: 14px
+}
+
+#bukalapak-widget ._160-600_ .bx-controls-direction .bx-prev,
+.bukalapak-widget-preview ._160-600_ .bx-controls-direction .bx-prev {
+    left: 10px
+}
+
+#bukalapak-widget ._160-600_ .bx-controls-direction .bx-prev.disabled,
+.bukalapak-widget-preview ._160-600_ .bx-controls-direction .bx-prev.disabled {
+    background-position: 0px 1px !important
+}
+
+#bukalapak-widget ._160-600_ .bx-controls-direction .bx-next,
+.bukalapak-widget-preview ._160-600_ .bx-controls-direction .bx-next {
+    right: 10px
+}
+
+#bukalapak-widget ._160-600_ .bx-controls-direction .bx-next.disabled,
+.bukalapak-widget-preview ._160-600_ .bx-controls-direction .bx-next.disabled {
+    background-position: -10px 1px !important
+}
+
+#bukalapak-widget ._160-600_ .products--link,
+.bukalapak-widget-preview ._160-600_ .products--link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 55px;
+    padding: 15px 10px;
+    font-size: 11px;
+    text-align: center
+}
+
+#bukalapak-widget ._160-600_ .products--link a,
+.bukalapak-widget-preview ._160-600_ .products--link a {
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding-top: 5px;
+    border: solid 1px #DDD;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 1px 0px #EEE;
+    box-shadow: 0 1px 0px #EEE
+}
+
+#bukalapak-widget ._160-600_ .products--link a span,
+.bukalapak-widget-preview ._160-600_ .products--link a span {
+    display: none
+}
+
+#bukalapak-widget ._160-600_.white .brand,
+.bukalapak-widget-preview ._160-600_.white .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._160-600_.white .brand--logo,
+.bukalapak-widget-preview ._160-600_.white .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_160-600_/red/logo.png")
+}
+
+#bukalapak-widget ._160-600_.white .seller--name a,
+.bukalapak-widget-preview ._160-600_.white .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._160-600_.white .seller--recommendation a,
+.bukalapak-widget-preview ._160-600_.white .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._160-600_.white .bx-pager-item a.active,
+.bukalapak-widget-preview ._160-600_.white .bx-pager-item a.active {
+    background-position: -34px -2px
+}
+
+#bukalapak-widget ._160-600_.white .bx-controls .bx-prev,
+.bukalapak-widget-preview ._160-600_.white .bx-controls .bx-prev {
+    background-position: 0px -25px
+}
+
+#bukalapak-widget ._160-600_.white .bx-controls .bx-next,
+.bukalapak-widget-preview ._160-600_.white .bx-controls .bx-next {
+    background-position: -10px -25px
+}
+
+#bukalapak-widget ._160-600_.white .products--link a,
+.bukalapak-widget-preview ._160-600_.white .products--link a {
+    color: #a30046;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #eee));
+    background-image: -o-linear-gradient(bottom, #fff 0%, #eee 100%);
+    background-image: -webkit-linear-gradient(bottom, #fff 0%, #eee 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff 0%, #eee 100%);
+    background-image: -o-linear-gradient(top, #fff 0%, #eee 100%);
+    background-image: linear-gradient(to bottom, #fff 0%, #eee 100%)
+}
+
+#bukalapak-widget ._160-600_.red .brand,
+.bukalapak-widget-preview ._160-600_.red .brand {
+    background-color: #a30046
+}
+
+#bukalapak-widget ._160-600_.red .brand--logo,
+.bukalapak-widget-preview ._160-600_.red .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_160-600_/white/logo.png")
+}
+
+#bukalapak-widget ._160-600_.red .seller--name a,
+.bukalapak-widget-preview ._160-600_.red .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._160-600_.red .seller--recommendation a,
+.bukalapak-widget-preview ._160-600_.red .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._160-600_.red .bx-pager-item a.active,
+.bukalapak-widget-preview ._160-600_.red .bx-pager-item a.active {
+    background-position: -34px -2px
+}
+
+#bukalapak-widget ._160-600_.red .bx-controls .bx-prev,
+.bukalapak-widget-preview ._160-600_.red .bx-controls .bx-prev {
+    background-position: 0px -25px
+}
+
+#bukalapak-widget ._160-600_.red .bx-controls .bx-next,
+.bukalapak-widget-preview ._160-600_.red .bx-controls .bx-next {
+    background-position: -10px -25px
+}
+
+#bukalapak-widget ._160-600_.red .products--link a,
+.bukalapak-widget-preview ._160-600_.red .products--link a {
+    border-color: #8c003d;
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #A30047), color-stop(1, #8C003D));
+    background-image: -o-linear-gradient(bottom, #A30047 0%, #8C003D 100%);
+    background-image: -webkit-linear-gradient(bottom, #A30047 0%, #8C003D 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#A30047), to(#8C003D));
+    background-image: -webkit-linear-gradient(top, #A30047 0%, #8C003D 100%);
+    background-image: -o-linear-gradient(top, #A30047 0%, #8C003D 100%);
+    background-image: linear-gradient(to bottom, #A30047 0%, #8C003D 100%)
+}
+
+#bukalapak-widget ._160-600_.grey .brand,
+.bukalapak-widget-preview ._160-600_.grey .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._160-600_.grey .brand--logo,
+.bukalapak-widget-preview ._160-600_.grey .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_160-600_/grey/logo.png")
+}
+
+#bukalapak-widget ._160-600_.grey .seller--name a,
+.bukalapak-widget-preview ._160-600_.grey .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._160-600_.grey .seller--recommendation a,
+.bukalapak-widget-preview ._160-600_.grey .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._160-600_.grey .bx-pager-item a.active,
+.bukalapak-widget-preview ._160-600_.grey .bx-pager-item a.active {
+    background-position: -34px -2px
+}
+
+#bukalapak-widget ._160-600_.grey .bx-controls .bx-prev,
+.bukalapak-widget-preview ._160-600_.grey .bx-controls .bx-prev {
+    background-position: 0px -25px
+}
+
+#bukalapak-widget ._160-600_.grey .bx-controls .bx-next,
+.bukalapak-widget-preview ._160-600_.grey .bx-controls .bx-next {
+    background-position: -10px -25px
+}
+
+#bukalapak-widget ._160-600_.grey .products--link a,
+.bukalapak-widget-preview ._160-600_.grey .products--link a {
+    color: #BBB;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #eee));
+    background-image: -o-linear-gradient(bottom, #fff 0%, #eee 100%);
+    background-image: -webkit-linear-gradient(bottom, #fff 0%, #eee 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff 0%, #eee 100%);
+    background-image: -o-linear-gradient(top, #fff 0%, #eee 100%);
+    background-image: linear-gradient(to bottom, #fff 0%, #eee 100%)
+}
+
+#bukalapak-widget ._160-600_.dark .brand,
+.bukalapak-widget-preview ._160-600_.dark .brand {
+    background-color: #333
+}
+
+#bukalapak-widget ._160-600_.dark .brand--logo,
+.bukalapak-widget-preview ._160-600_.dark .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_160-600_/white/logo.png")
+}
+
+#bukalapak-widget ._160-600_.dark .seller--name a,
+.bukalapak-widget-preview ._160-600_.dark .seller--name a {
+    color: #333
+}
+
+#bukalapak-widget ._160-600_.dark .seller--recommendation a,
+.bukalapak-widget-preview ._160-600_.dark .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._160-600_.dark .bx-pager-item a.active,
+.bukalapak-widget-preview ._160-600_.dark .bx-pager-item a.active {
+    background-position: -34px -27px
+}
+
+#bukalapak-widget ._160-600_.dark .bx-controls .bx-prev,
+.bukalapak-widget-preview ._160-600_.dark .bx-controls .bx-prev {
+    background-position: 0px -51px
+}
+
+#bukalapak-widget ._160-600_.dark .bx-controls .bx-next,
+.bukalapak-widget-preview ._160-600_.dark .bx-controls .bx-next {
+    background-position: -10px -51px
+}
+
+#bukalapak-widget ._160-600_.dark .products--link a,
+.bukalapak-widget-preview ._160-600_.dark .products--link a {
+    border-color: #333;
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4D4D4D), color-stop(1, #333));
+    background-image: -o-linear-gradient(bottom, #4D4D4D 0%, #333 100%);
+    background-image: -webkit-linear-gradient(bottom, #4D4D4D 0%, #333 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#4D4D4D), to(#333));
+    background-image: -webkit-linear-gradient(top, #4D4D4D 0%, #333 100%);
+    background-image: -o-linear-gradient(top, #4D4D4D 0%, #333 100%);
+    background-image: linear-gradient(to bottom, #4D4D4D 0%, #333 100%)
+}
+
+#bukalapak-widget ._728-90_,
+.bukalapak-widget-preview ._728-90_ {
+    width: 728px;
+    height: 90px;
+    border: 1px solid #dae0e3;
+    position: relative;
+    background-color: #fff
+}
+
+#bukalapak-widget ._728-90_ .brand,
+.bukalapak-widget-preview ._728-90_ .brand {
+    width: 88px;
+    height: 88px;
+    float: left;
+    border-right: solid 1px #F7F7F7
+}
+
+#bukalapak-widget ._728-90_ .brand--logo,
+.bukalapak-widget-preview ._728-90_ .brand--logo {
+    display: block;
+    height: 88px;
+    width: 88px;
+    margin: 0 auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: transparent;
+    font-size: 0
+}
+
+#bukalapak-widget ._728-90_ .seller,
+.bukalapak-widget-preview ._728-90_ .seller {
+    height: 88px;
+    width: 200px;
+    float: right;
+    padding: 13px
+}
+
+#bukalapak-widget ._728-90_ .seller--image,
+.bukalapak-widget-preview ._728-90_ .seller--image {
+    float: left;
+    margin-right: 10px
+}
+
+#bukalapak-widget ._728-90_ .seller--image img,
+.bukalapak-widget-preview ._728-90_ .seller--image img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px
+}
+
+#bukalapak-widget ._728-90_ .seller--description,
+.bukalapak-widget-preview ._728-90_ .seller--description {
+    float: left
+}
+
+#bukalapak-widget ._728-90_ .seller--name,
+.bukalapak-widget-preview ._728-90_ .seller--name {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding-top: 2px
+}
+
+#bukalapak-widget ._728-90_ .seller--badge,
+.bukalapak-widget-preview ._728-90_ .seller--badge {
+    margin-top: 6px
+}
+
+#bukalapak-widget ._728-90_ .seller--recommendation,
+.bukalapak-widget-preview ._728-90_ .seller--recommendation {
+    display: block;
+    clear: both;
+    float: left;
+    margin-top: 6px;
+    font-size: 11px
+}
+
+#bukalapak-widget ._728-90_ .products,
+.bukalapak-widget-preview ._728-90_ .products {
+    display: block;
+    float: left;
+    position: relative;
+    width: 438px;
+    height: 88px;
+    padding: 13px;
+    background-color: #FAFBFC
+}
+
+#bukalapak-widget ._728-90_ .product,
+.bukalapak-widget-preview ._728-90_ .product {
+    float: left;
+    width: 137px !important;
+    padding: 0 2px
+}
+
+#bukalapak-widget ._728-90_ .product--image,
+.bukalapak-widget-preview ._728-90_ .product--image {
+    float: left
+}
+
+#bukalapak-widget ._728-90_ .product--image img,
+.bukalapak-widget-preview ._728-90_ .product--image img {
+    height: 42px;
+    width: 42px;
+    margin-right: 10px;
+    border-radius: 8px
+}
+
+#bukalapak-widget ._728-90_ .product--description,
+.bukalapak-widget-preview ._728-90_ .product--description {
+    float: left;
+    width: 70px;
+    height: 42px;
+    position: relative
+}
+
+#bukalapak-widget ._728-90_ .product--name,
+.bukalapak-widget-preview ._728-90_ .product--name {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 4px;
+    font-size: 11px;
+    font-weight: bold
+}
+
+#bukalapak-widget ._728-90_ .product--name a,
+.bukalapak-widget-preview ._728-90_ .product--name a {
+    color: #333
+}
+
+#bukalapak-widget ._728-90_ .product--price,
+.bukalapak-widget-preview ._728-90_ .product--price {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: bold
+}
+
+#bukalapak-widget ._728-90_ .product--price a,
+.bukalapak-widget-preview ._728-90_ .product--price a {
+    color: #a30046
+}
+
+#bukalapak-widget ._728-90_ .bx-viewport,
+.bukalapak-widget-preview ._728-90_ .bx-viewport {
+    height: 43px !important;
+    margin-bottom: 10px
+}
+
+#bukalapak-widget ._728-90_ .bx-controls a,
+.bukalapak-widget-preview ._728-90_ .bx-controls a {
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    background-image: url("https://www.bukalapak.com/images/widget/_728-90_/nav.png");
+    background-position: -9999px -9999px;
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 10px;
+    height: 12px;
+    z-index: 2
+}
+
+#bukalapak-widget ._728-90_ .bx-controls .bx-prev,
+.bukalapak-widget-preview ._728-90_ .bx-controls .bx-prev {
+    left: 15px
+}
+
+#bukalapak-widget ._728-90_ .bx-controls .bx-prev.disabled,
+.bukalapak-widget-preview ._728-90_ .bx-controls .bx-prev.disabled {
+    background-position: 0px 0px !important
+}
+
+#bukalapak-widget ._728-90_ .bx-controls .bx-next,
+.bukalapak-widget-preview ._728-90_ .bx-controls .bx-next {
+    right: 15px
+}
+
+#bukalapak-widget ._728-90_ .bx-controls .bx-next.disabled,
+.bukalapak-widget-preview ._728-90_ .bx-controls .bx-next.disabled {
+    background-position: -10px 0px !important
+}
+
+#bukalapak-widget ._728-90_ .products--link,
+.bukalapak-widget-preview ._728-90_ .products--link {
+    display: block;
+    clear: both;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    font-size: 11px;
+    text-align: center
+}
+
+#bukalapak-widget ._728-90_ .products--link a,
+.bukalapak-widget-preview ._728-90_ .products--link a {
+    color: #BBB !important
+}
+
+#bukalapak-widget ._728-90_.white .brand,
+.bukalapak-widget-preview ._728-90_.white .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._728-90_.white .brand--logo,
+.bukalapak-widget-preview ._728-90_.white .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_728-90_/red/logo.png")
+}
+
+#bukalapak-widget ._728-90_.white .seller--name a,
+.bukalapak-widget-preview ._728-90_.white .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._728-90_.white .seller--recommendation a,
+.bukalapak-widget-preview ._728-90_.white .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._728-90_.white .bx-controls .bx-prev,
+.bukalapak-widget-preview ._728-90_.white .bx-controls .bx-prev {
+    background-position: 0px -17px
+}
+
+#bukalapak-widget ._728-90_.white .bx-controls .bx-next,
+.bukalapak-widget-preview ._728-90_.white .bx-controls .bx-next {
+    background-position: -10px -17px
+}
+
+#bukalapak-widget ._728-90_.red .brand,
+.bukalapak-widget-preview ._728-90_.red .brand {
+    background-color: #a30046
+}
+
+#bukalapak-widget ._728-90_.red .brand--logo,
+.bukalapak-widget-preview ._728-90_.red .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_728-90_/white/logo.png")
+}
+
+#bukalapak-widget ._728-90_.red .seller--name a,
+.bukalapak-widget-preview ._728-90_.red .seller--name a {
+    color: #a30046
+}
+
+#bukalapak-widget ._728-90_.red .seller--recommendation a,
+.bukalapak-widget-preview ._728-90_.red .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._728-90_.red .bx-controls .bx-prev,
+.bukalapak-widget-preview ._728-90_.red .bx-controls .bx-prev {
+    background-position: 0px -17px
+}
+
+#bukalapak-widget ._728-90_.red .bx-controls .bx-next,
+.bukalapak-widget-preview ._728-90_.red .bx-controls .bx-next {
+    background-position: -10px -17px
+}
+
+#bukalapak-widget ._728-90_.grey .brand,
+.bukalapak-widget-preview ._728-90_.grey .brand {
+    background-color: #fff
+}
+
+#bukalapak-widget ._728-90_.grey .brand--logo,
+.bukalapak-widget-preview ._728-90_.grey .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_728-90_/grey/logo.png")
+}
+
+#bukalapak-widget ._728-90_.grey .seller--name a,
+.bukalapak-widget-preview ._728-90_.grey .seller--name a {
+    color: #333
+}
+
+#bukalapak-widget ._728-90_.grey .seller--recommendation a,
+.bukalapak-widget-preview ._728-90_.grey .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._728-90_.grey .bx-controls .bx-prev,
+.bukalapak-widget-preview ._728-90_.grey .bx-controls .bx-prev {
+    background-position: 0px -17px
+}
+
+#bukalapak-widget ._728-90_.grey .bx-controls .bx-next,
+.bukalapak-widget-preview ._728-90_.grey .bx-controls .bx-next {
+    background-position: -10px -17px
+}
+
+#bukalapak-widget ._728-90_.dark .brand,
+.bukalapak-widget-preview ._728-90_.dark .brand {
+    background-color: #333
+}
+
+#bukalapak-widget ._728-90_.dark .brand--logo,
+.bukalapak-widget-preview ._728-90_.dark .brand--logo {
+    background-image: url("https://www.bukalapak.com/images/widget/_728-90_/white/logo.png")
+}
+
+#bukalapak-widget ._728-90_.dark .seller--name a,
+.bukalapak-widget-preview ._728-90_.dark .seller--name a {
+    color: #333
+}
+
+#bukalapak-widget ._728-90_.dark .seller--recommendation a,
+.bukalapak-widget-preview ._728-90_.dark .seller--recommendation a {
+    color: #BBB
+}
+
+#bukalapak-widget ._728-90_.dark .bx-controls .bx-prev,
+.bukalapak-widget-preview ._728-90_.dark .bx-controls .bx-prev {
+    background-position: 0px -35px
+}
+
+#bukalapak-widget ._728-90_.dark .bx-controls .bx-next,
+.bukalapak-widget-preview ._728-90_.dark .bx-controls .bx-next {
+    background-position: -10px -35px
+}
